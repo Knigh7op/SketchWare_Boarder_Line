@@ -1,0 +1,5 @@
+android.graphics.drawable.GradientDrawable gd = new android.graphics.drawable.GradientDrawable();
+gd.setColor(Color.parseColor(_color1));
+gd.setCornerRadius((int) _round);
+gd.setStroke((int) _border, Color.parseColor(_color2));
+_view.setBackground(gd);
